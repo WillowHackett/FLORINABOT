@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/TGNRobot
-RUN git clone -b shiken https://github.com/Itsunknown-12/TGN-Robot /root/TGNRobot
-WORKDIR /root/TGNRobot
+# Copy Python Requirements to /root/FlorinaRobot
+RUN git clone -b shiken https://github.com/KUNAL12459/FlorinaRobot /root/FlorinaRobot
+WORKDIR /root/FlorinaRobot
 
-#Copy config file to /root/TGNRobot/TGNRobot
-COPY ./TGNRobot/sample_config.py ./TGNRobot/config.py* /root/TGNRobot/TGNRobot/
+#Copy config file to /root/FlorinaRobot/FlorinaRobot
+COPY ./FlorinaRobot/sample_config.py ./FlorinaRobot/config.py* /root/FlorinaRobot/FlorinaRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","TGNRobot"]
+CMD ["python3","-m","FlorinaRobot"]

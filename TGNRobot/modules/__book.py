@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from telethon import events
 
-from TGNRobot import telethn as tbot
+from FlorinaRobot import telethn as tbot
 
 
 @tbot.on(events.NewMessage(pattern="^/book (.*)"))

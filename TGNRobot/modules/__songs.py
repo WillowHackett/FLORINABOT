@@ -44,7 +44,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from TGNRobot import pbot as zaid
+from FlorinaRobot import pbot as zaid
 
 ARQ = "https://thearq.tech/"
 
@@ -98,7 +98,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from TGNRobot import pbot as ASUNA
+from FlorinaRobot import pbot as ASUNA
 
 ARQ = "https://thearq.tech/"
 

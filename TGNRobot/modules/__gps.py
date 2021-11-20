@@ -1,8 +1,8 @@
 import os
-from TGNRobot import telethn as tbot
+from FlorinaRobot import telethn as tbot
 from geopy.geocoders import Nominatim
-from TGNRobot.events import register
-from TGNRobot import *
+from FlorinaRobot.events import register
+from FlorinaRobot import *
 from telethon import *
 from telethon.tl import *
 

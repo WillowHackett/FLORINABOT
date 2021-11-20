@@ -3,12 +3,12 @@ import re
 import os
 import html
 import requests
-import TGNRobot.modules.sql.kuki_sql as sql
+import FlorinaRobot.modules.sql.kuki_sql as sql
 
 from time import sleep
 from telegram import ParseMode
-from TGNRobot import dispatcher, updater, SUPPORT_CHAT
-from TGNRobot.modules.log_channel import gloggable
+from FlorinaRobot import dispatcher, updater, SUPPORT_CHAT
+from FlorinaRobot.modules.log_channel import gloggable
 from telegram import (CallbackQuery, Chat, MessageEntity, InlineKeyboardButton,
                       InlineKeyboardMarkup, Message, ParseMode, Update, Bot, User)
 
@@ -18,8 +18,8 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 
-from TGNRobot.modules.helper_funcs.filters import CustomFilters
-from TGNRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from FlorinaRobot.modules.helper_funcs.filters import CustomFilters
+from FlorinaRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
 
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 

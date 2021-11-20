@@ -1,5 +1,5 @@
 from envparse import env
-from TGNRobot import LOGGER
+from FlorinaRobot import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,

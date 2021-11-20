@@ -1,4 +1,4 @@
-from TGNRobot import telethn as tbot
+from FlorinaRobot import telethn as tbot
 import requests
 import time
 

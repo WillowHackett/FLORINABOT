@@ -1,4 +1,4 @@
-from TGNRobot import DEV_USERS, DRAGONS, DEMONS
+from FlorinaRobot import DEV_USERS, DRAGONS, DEMONS
 from telegram import Message
 from telegram.ext import BaseFilter
 

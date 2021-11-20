@@ -1,8 +1,8 @@
 # © @Mr_Dark_Prince
 import aiohttp
 from pyrogram import filters
-from TGNRobot import pbot
-from TGNRobot.pyrogramee.errors import capture_err
+from FlorinaRobot import pbot
+from FlorinaRobot.pyrogramee.errors import capture_err
 
 
 __mod_name__ = "Github"

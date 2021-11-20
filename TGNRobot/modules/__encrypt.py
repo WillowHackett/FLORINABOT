@@ -1,6 +1,6 @@
-from TGNRobot import telethn as tbot
+from FlorinaRobot import telethn as tbot
 import os
-from TGNRobot.events import register
+from FlorinaRobot.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")

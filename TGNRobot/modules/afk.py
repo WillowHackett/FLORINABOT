@@ -1,12 +1,12 @@
 import random, html
 
-from TGNRobot import dispatcher
-from TGNRobot.modules.disable import (
+from FlorinaRobot import dispatcher
+from FlorinaRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from TGNRobot.modules.sql import afk_sql as sql
-from TGNRobot.modules.users import get_user_id
+from FlorinaRobot.modules.sql import afk_sql as sql
+from FlorinaRobot.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async

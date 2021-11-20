@@ -1,4 +1,4 @@
-from TGNRobot import telethn as tbot
+from FlorinaRobot import telethn as tbot
 import os
 
 from gtts import gTTS
@@ -8,9 +8,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from TGNRobot import *
+from FlorinaRobot import *
 
-from TGNRobot.events import register
+from FlorinaRobot.events import register
 
 
 async def is_register_admin(chat, user):

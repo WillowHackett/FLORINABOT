@@ -1,15 +1,15 @@
-from TGNRobot import telethn as tbot
-from TGNRobot.events import register
+from FlorinaRobot import telethn as tbot
+from FlorinaRobot.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from TGNRobot import OWNER_ID, DEV_USERS
-from TGNRobot import TEMP_DOWNLOAD_DIRECTORY as path
-from TGNRobot import TEMP_DOWNLOAD_DIRECTORY
+from FlorinaRobot import OWNER_ID, DEV_USERS
+from FlorinaRobot import TEMP_DOWNLOAD_DIRECTORY as path
+from FlorinaRobot import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './TGNRobot/resources/yone.jpg'
+water = './FlorinaRobot/resources/yone.jpg'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")

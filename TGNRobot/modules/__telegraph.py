@@ -1,12 +1,12 @@
-from TGNRobot.events import register
-from TGNRobot import telethn as tbot
+from FlorinaRobot.events import register
+from FlorinaRobot import telethn as tbot
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-Zaid = "tgn"
+Zaid = "Florina"
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=Zaid)
 auth_url = r["auth_url"]
